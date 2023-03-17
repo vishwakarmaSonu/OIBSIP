@@ -1,0 +1,54 @@
+*{
+    padding: auto;
+    margin:auto;
+   
+}
+body{
+    background-color: rgb(155, 230, 230);
+}
+#todo{
+    background-color:aqua;
+    text-align: center;
+     margin-bottom: 30px;
+}
+.add{
+   
+    text-align: center;
+   
+    background-color:greenyellow;
+    border-radius: 20px;
+    margin-left: 15px;
+}
+#thead{
+
+    background-color: rgb(142, 240, 142);
+    color:rgb(247, 9, 9)
+}
+#sub,#delete ,#edit3, #can,#edit{
+    background-color: red;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+#sub,#edit3,#edit{
+    background-color: greenyellow;
+}
+
+#add2,#edit2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+#addform ,#editform{
+    background-color: greenyellow;
+    color:red;
+}
+#addform2,#editform1{
+    color:red;
+}
+
+#can{
+    margin-left: 10px;
+}
+
+tr th{
+    color: orange;
+}

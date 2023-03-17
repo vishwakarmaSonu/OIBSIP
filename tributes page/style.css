@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #a8e9ef;
+  min-height: 80vh;
+  border: 5px solid #08e34d;
+
+  margin: 10 px;
+
+}
+
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.top_section {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.top_section h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #1d1e4c;
+  text-transform: uppercase;
+}
+.top_section h4 {
+  font-size: 30px;
+  text-align: end;
+}
+
+.image_container {
+  
+  margin-top: 10%;
+  border-radius: 50px;
+  overflow: hidden;
+  border-style: solid;
+  color: rgb(252, 84, 0);
+ 
+}
+
+.image_container,
+img {
+  width: 300px;
+  height: 320px;
+}
+#read , .biography_section, .about_section {
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px ;
+}
+.about_section h2 {
+  font-size: 70px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+p, .about_section p {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1.2px;
+  text-align: justify;
+}
+
+
+footer {
+  margin: 50px 0;
+}
+footer p {
+  text-align: end;
+}
+#name{
+ margin-bottom: 80px;
+ margin-left: 40px;
+ position: relative;
+ bottom: 50px;
+ 
+}
+#red ,#name .one{
+  color: orange;
+}
+#name .two{
+  color: white;
+}
+ #name .three{
+  color:green;
+}
+
+#india{
+  font-size: 50px;
+}
+#num{
+  text-align: center;
+  font-family: cursive;
+}
+#data{
+  text-align: center;
+  font-size: 50px;
+  position:relative;
+  bottom:100px;
+}
+
+
+/* Hero Section */
+.hero {
+  display: flex;
+ 
+  justify-content: center;
+  align-items: center;
+}
